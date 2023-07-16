@@ -1,0 +1,167 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+body
+{
+    background-color: lightgray;
+}
+
+header
+{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    
+}
+
+header > h2 
+{
+    flex: 1;
+}
+
+.h2_title 
+{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid brown;
+    padding: 20px;
+    /* background-color: lightblue; */
+    color: grey;
+}
+
+.test 
+{
+    /* border: 1px solid green; */
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: lightgray;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid grey;
+}
+
+#questPara
+{
+    margin-bottom: 30px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid gray;
+}
+
+#submitBtn
+{
+    border: 1px solid gray;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+#submitBtn:hover 
+{
+    background-color: black;
+    color: wheat;
+}
+
+
+main
+{
+    padding: 10px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+main > section 
+{
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+.section2 
+{
+    background-image: url('./images/pix.jpg');
+    image-rendering: optimizeQuality;
+    background-position-y: center;
+    background-position-x: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.welcome_div > h2
+{
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+.welcome_div > p 
+{
+    color: white;
+    padding: 20px;
+}
+
+.welcome_div > p > button
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    
+}
+
+#score
+{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 3px 3px 13px grey;
+}
+
+#time_h2
+{
+    /* border: 1px solid lightcoral; */
+    padding: 10px;
+    /* background-color:lightcoral; */
+    text-align: center;
+    font-family: cursive;
+}
+#control
+{
+    font-family: cursive;
+}
+.footerdiv{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-family: cursive;
+}
+
+.fcontainerdiv{
+    display: grid;
+    width:80% ;
+    margin:0 auto ;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+background-color:rgb(211, 200, 200);
+padding-top: 3rem;
+padding-bottom: 5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
